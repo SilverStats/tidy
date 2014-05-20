@@ -64,5 +64,3 @@ tidy <- dcast(melted, Activity + Subject ~ variable, mean)
 
 write.table(tidy, "tidyAverages.txt")
 
-
-
